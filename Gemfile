@@ -18,7 +18,7 @@ gem 'progress_bar', '0.4.0'
 gem 'will_paginate', '~> 3.0'
 gem 'paperclip-meta', '0.4.3'
 gem 'sitemap_generator'
-gem 'fog'
+gem 'fog', '>= 1.14.0'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.10.0'
