@@ -8,7 +8,7 @@ gem 'pg', '0.13.2'
 gem 'haml', '3.1.4'
 gem 'haml-rails', '0.3.4'
 gem 'sass', '~> 3.2.1'
-gem 'rails_admin'
+gem 'rails_admin', '>= 1.0.0'
 gem 'devise', '2.0.4'
 gem 'sunspot_rails', '1.3.1'
 gem 'gmaps4rails', '1.5.1'
@@ -21,7 +21,7 @@ gem 'sitemap_generator'
 gem 'fog'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.10.0'
+  gem 'rspec-rails', '~> 2.10.1'
   gem 'sunspot_solr', '1.3.1'
   gem 'pry'
 end
@@ -41,4 +41,4 @@ group :assets do
   gem 'uglifier', '1.2.4'
 end
 
-gem 'jquery-rails', '~> 2.0'
+gem 'jquery-rails', '~> 2.1', '>= 2.1.3'
