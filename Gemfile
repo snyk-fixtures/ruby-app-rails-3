@@ -21,7 +21,7 @@ gem 'sitemap_generator'
 gem 'fog'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.10.0'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'sunspot_solr', '1.3.1'
   gem 'pry'
 end
