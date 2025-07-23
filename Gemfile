@@ -27,7 +27,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara', '1.1.3'
   gem 'sunspot_test', '0.4.0'
   gem 'sunspot_matchers', '1.3.0.1'
   gem 'shoulda', '3.1.1'
