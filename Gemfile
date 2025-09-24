@@ -6,7 +6,7 @@ gem 'rails', '3.2.18'
 gem 'thin', '1.3.1'
 gem 'pg', '0.13.2'
 gem 'haml', '3.1.4'
-gem 'haml-rails', '0.3.4'
+gem 'haml-rails', '0.5.3'
 gem 'sass', '~> 3.2.1'
 gem 'rails_admin'
 gem 'devise', '2.0.4'
@@ -21,7 +21,7 @@ gem 'sitemap_generator'
 gem 'fog'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.10.0'
+  gem 'rspec-rails', '~> 2.11.0'
   gem 'sunspot_solr', '1.3.1'
   gem 'pry'
 end
